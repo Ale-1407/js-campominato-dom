@@ -16,8 +16,14 @@
               <img src="./img/mobile-logo.png" alt="logo">
               <span class="fw-bold fs-3">Campo Minato</span>
             </div>
-            <div class="my-auto me-4">
-               <button class="px-5  rounded-3" id="button">Play</button> 
+            <div class="my-auto d-flex">
+              <select class="form-select me-2" id="levels" aria-label="Default select example">
+                <option selected>Seleziona la difficoltà</option>
+                <option value="1">Facile</option>
+                <option value="2">Medio</option>
+                <option value="3">Difficile</option>
+              </select>
+              <button class="px-2 border-0 btn btn-warning rounded-3" id="button">Play!</button> 
             </div>
         </div>
       </header>
@@ -27,13 +33,13 @@
           
         </div>
         <div class="frase text-center" id="frase">
-            <span class="fw-semibold fs-3">Premi Play e inizia la partita!</span>
+            <span class="fw-semibold fs-4">Scegli la difficoltà, premi Play e inizia la partita!</span>
         </div>
 
       </main>
       <footer>
-          <div class="p-2">
-            <span class="fs-4">Made with <i class="fa-solid fa-heart fs-5"></i> by <a href="#">Alessia Carrera</a> </span>
+          <div class="p-3">
+            <span class="fs-5">Made with <i class="fa-solid fa-heart fs-5"></i> by Alessia Carrera, classe #77 </span>
           </div>
       </footer>
   
