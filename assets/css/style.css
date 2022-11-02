@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+}
+
+.logo{
+    width: 80%;
+    margin: auto;
+}
+
+.logo img{
+    height: 80px;
+}
+
+.logo span{
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+main{
+    background-color: #7fffd4;
+    height: 80vh;
+}
+
+
+#griglia{
+    max-width: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.quadrato{
+    border: 1px solid black;
+    width: calc(100% / 10);
+    aspect-ratio: 1/1;
+}
+
+.active{
+    background-color: violet;
+    color: white;
+}
+
+.display{
+    display: none;
+}
+
+
+
+footer{
+   
+    width: 80%;
+    margin: auto;
+}
